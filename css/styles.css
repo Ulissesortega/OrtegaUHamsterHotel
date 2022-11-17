@@ -25,7 +25,7 @@ html {
 /* CSS for hero image */
 
 .hero-image {
-    background-image: url("../assets/header.jpg");
+    background: url("../assets/header.jpg");
 
     height: 50%;
 
@@ -44,8 +44,6 @@ html {
     color: white;
     background-color: #000324;
     opacity: 0.8;
-    width: 945px;
-    height: 232px;
     padding-top: 40px;
 }
 
@@ -133,11 +131,12 @@ html {
 
 .himg3 {
     background: url("../assets/bg.jpg");
-    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .padtop {
@@ -177,6 +176,8 @@ html {
 /* CSS for the footer */
 .bgblue {
     background-color: #000324;
+    
+
 
 }
 
