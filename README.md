@@ -1,5 +1,8 @@
 # OrtegaUHamsterHotel
 
+This is a school project using HTML - CSS - CSS BootStrap.
+
+Description: We were given a prototype of a website to be replcated, the website also needs to be resposive, meaning It has be viable and readable in a cell phone, table and computer screen, we made use of container-fluid, container, row and columns to work the website and it's content.
 
 Peer Review: Manuel L.
   
