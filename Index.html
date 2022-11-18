@@ -96,8 +96,10 @@
         <div class="card mb-4" style="max-width: 1920px;">
           <div class="row no-gutters">
             <div class="col-md-4 align-items-center">
-              <img src="./assets/hamsterhomejpg.jpg" class="card-img" alt="Hamster Eating a Pea" height="450px">
+              <img src="./assets/hamsterhomejpg.jpg" class="card-img" alt="Hamster Eating a Pea" height="auto" >
             </div>
+
+            
 
             <div class="col-lg-8 col-sm-12">
               <div class="card-body">
@@ -115,10 +117,10 @@
                 </p>
                 <!-- This is for the 3 images -->
                 <div class="row d-flex align-items-center">
-                  <div class="col-lg-4 col-sm-12"><img src="./assets/awardfinest.png" alt="Award Finest Quality"></div>
-                  <div class="col-lg-4 col-sm-12"><img src="./assets/awardsatisfaction.png" alt="Award Satisfaction Certification">
+                  <div class="col-lg-4 col-sm-12 d-none d-xl-block"><img src="./assets/awardfinest.png" alt="Award Finest Quality"></div>
+                  <div class="col-lg-4 col-sm-12 d-none d-xl-block"><img src="./assets/awardsatisfaction.png" alt="Award Satisfaction Certification">
                   </div>
-                  <div class="col-lg-4 col-sm-12"><img src="./assets/awardgenuine.png" alt="Award Genuine"></div>
+                  <div class="col-lg-4 col-sm-12 d-none d-xl-block"><img src="./assets/awardgenuine.png" alt="Award Genuine"></div>
                 </div>
               </div>
             </div>
@@ -131,14 +133,15 @@
   </div>
   <!-- ---------------------------------------------------------------------------------------------------------------------------->
   <!-- Our Rooms -->
+  <!-- !This is the 1st Room -->
   <div id="rooms" class="container-fluid himg2 mt-5">
     <div class="row">
       <h1 class="tcenter mb-1">Rooms</h1>
     </div>1
-    <div class="container d-flex justify-content-around">
+    <div class="container d-flex justify-content-lg-center ">
       <div class="row">
         <!-- This is the first card -->
-        <div class="col-lg-4 col-sm-12 col-md-12">
+        <div class=" mb-5 col-lg-4 col-sm-12 col-md-12 d-md-flex justify-content-md-center">
           <div class="card" style="width: 20rem;">
             <img src="./assets/room1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -158,8 +161,9 @@
             </div>
           </div>
         </div>
+        <!-- !This is the Second Card -->
         <!-- This the second card -->
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12  mb-5 d-md-flex justify-content-md-center">
           <div class="card" style="width: 20rem;">
             <img src="./assets/room3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -180,7 +184,7 @@
           </div>
         </div>
         <!-- this is the third card -->
-        <div class="col-lg-4 col-sm-12 mb-5">
+        <div class="col-lg-4 col-sm-12 mb-5 d-md-flex justify-content-md-center">
           <div class="card" style="width: 20rem;">
             <img src="./assets/room2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -213,14 +217,14 @@
     <!-- This is the 1st Package -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-1 col-sm-12 d-flex justify-content-center"></div>
-        <div class="col-lg-5 col-sm-12 d-flex justify-content-center">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-sm-12 d-flex justify-content-center d-md-flex justify-content-md-center">
           <img src="./assets/hamsterwedding.jpg" alt="white hamster" height="234px" width="561px" class="img-fluid">
         </div>
-        <div class="col-lg-5 col-sm-12">
+        <div class="col-lg-5 col-sm-12 col-md-5 d-md-block justify-content-center">
           <div class="row"><P>Beach Weeding Package</P></div>
           <br>
-          <div class="row"><P>Starting US $1,500.00</P></div>
+          <div class="row"><P class="tfprice"">Starting US $1,500.00</P></div>
           <br>
           <div class="row">
             <p class="packagestext"> Feel the warmth of the beach as the flames in your hearts ignite during our romantic <br>
@@ -229,20 +233,20 @@
             members and friends will be provided after the ceremony.</p>
           </div>
         </div>
-        <div class="col-lg-1 col-sm-12 d-flex justify-content-center"></div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
 
     <!-- This is the second package -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-1 col-sm-12 d-flex justify-content-center"></div>
+        <div class="col-lg-1"></div>
 
         <!-- This is for the text -->
-        <div class="col-lg-5 col-sm-12">
+        <div class="col-lg-5 col-sm-12 ">
           <div class="row"><p>Full Bool Package</p></div>
           
-          <div class="row"><p>Starting US $1,000.00 </p></div>
+          <div class="row"><p class="tfprice">Starting US $1,000.00 </p></div>
           
           <div class="row"><p class="packagestext">Enjoy the shade of our cherry trees as you join us during our spring time celebration.<br>
           We invite you to our orchards for cherry, strawberry, and apple picking that is open<br>
@@ -251,10 +255,10 @@
         </div>
 
         <!-- This is for the image -->
-        <div class="col-lg-5 col-sm-12">
+        <div class="col-lg-5 col-sm-12 d-md-flex justify-content-md-center">
           <img src="./assets/hamsterspring.jpg" alt="Hmaster Picture" height="234px" width="561px" class="img-fluid">
         </div>
-        <div class="col-1`"></div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
 
@@ -264,12 +268,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-1 col-sm-12 d-flex justify-content-center"></div>
-          <div class="col-lg-5 col-sm-12 d-flex justify-content-center">
-            <img src="./assets/hamsterwedding.jpg" alt="white hamster" height="234px" width="561px" class="img-fluid">
+          <div class="col-lg-5 col-sm-12 d-flex justify-content-center d-md-flex justify-content-md-center">
+            <img src="./assets/hamsterwedding.jpg" alt="white hamster" height="234px" width="561px" class="img-fluid" >
           </div>
           <div class="col-lg-5 col-sm-12">
             <div class="row"><P>Cheese and Seed Tour Package</P></div>
-             <div class="row"><P>Starting US $1,200.00
+             <div class="row"><P class="tfprice">Starting US $1,200.00
             </P></div>
              <div class="row"><P class="packagestext">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We<br>
               consulted with connoisseurs from around the globe to bring you the best flavors <br>
@@ -277,7 +281,7 @@
               Cheese and seeds are served all day and nightly spa treatment is provided after <br>
                dinner.</P></div>
           </div>
-          <div class="col-lg-1 d-flex justify-content-center"></div>
+          <div class="col-lg-1 d-md-flex justify-content-md-center"></div>
         </div>
       </div>
     </div>
@@ -300,27 +304,43 @@
             most relaxing stay we can provide.</p>
         </div>
 
-        <div class="container d-flex justify-content-evenly">
+        <div class="container d-flex justify-content-center">
         <div class="row">
 
           <div class="col">
             <img src="./assets/24hour.png" alt="24 hours rooms service" width="150px" height="101px">
+            <p class="roomstext" >24 Hour Room Service</p>
           </div>
 
           <div class="col">
             <img src="./assets/breakfast.png" alt="complimentary breakfast" width="150px" height="104px">
+            <P class="roomstext">Complementary Breakfast</P>
           </div>
 
           <div class="col">
             <img src="./assets/valet.png" alt="valet parking" width="115px" height="110px">
+            <p class="roomstext">Valet Parking</p>
           </div>
 
           <div class="col" width="150px" height="101px">
             <img src="./assets/pool.png" alt="pool side">
+            <p class="roomstext">Beachside Pool</p>
           </div>
 
         </div>
       </div>
+
+     
+      </div>
+
+
+
+
+
+
+
+
+      
       </div>
       
     </div>
