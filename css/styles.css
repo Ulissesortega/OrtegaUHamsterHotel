@@ -50,7 +50,6 @@ html {
     color: white;
     background-color: #000324;
     opacity: 0.8;
-    padding-top: 40px;
     min-width: 25%;
     max-width: 45%;
 }
@@ -126,7 +125,7 @@ html {
 }
 
 
-
+/* !-------------------------------------------------------------------------------------------------------------- */
 /*! CSS for Amenities */
 .tcenter3 {
     text-align: center;
@@ -167,7 +166,7 @@ html {
 .ml {
     margin-right: 15px;
 }
-
+/*!--------------------------------------------------------------------------------------------------------------  */
 /*! CSS Reserve a Room */
 .himg4 {
     background-image: url("../assets/hamsterreserve.jpg");
@@ -193,7 +192,7 @@ html {
     color: #E5FEFF;
     opacity: 1;
 }
-
+/* !------------------------------------------------------------------------------------------------------- */
 /* CSS for the footer */
 .bgblue {
     background-color: #000324;
